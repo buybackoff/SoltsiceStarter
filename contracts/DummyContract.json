@@ -1,0 +1,155 @@
+{
+  "contract_name": "DummyContract",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getPublic",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_newValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "setPublic",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_newValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "setPrivate",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getPrivate",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "wellKnown",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_secret",
+          "type": "uint256"
+        },
+        {
+          "name": "_wellKnown",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "newValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "SecretSet",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "newValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "PublicSet",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b6040516040806103af83398101604052808051919060200180519150505b5b60008054600160a060020a03191633600160a060020a03161790555b600182905560028190555b50505b610348806100676000396000f300606060405236156100805763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632c044779811461008557806331845f7d146100aa57806389cfd71b146100c25780638da5cb5b146100da5780639ad5522014610109578063db5446a51461012e578063f2fde38b14610153575b600080fd5b341561009057600080fd5b610098610174565b60405190815260200160405180910390f35b34156100b557600080fd5b6100c0600435610199565b005b34156100cd57600080fd5b6100c06004356101f1565b005b34156100e557600080fd5b6100ed610249565b604051600160a060020a03909116815260200160405180910390f35b341561011457600080fd5b610098610258565b60405190815260200160405180910390f35b341561013957600080fd5b61009861027d565b60405190815260200160405180910390f35b341561015e57600080fd5b6100c0600160a060020a0360043516610283565b005b6000805433600160a060020a0390811691161461019057600080fd5b506002545b5b90565b60005433600160a060020a039081169116146101b457600080fd5b60028190557f9b74f4c9c2da3c8657242fca8e6c25a7f2ee73e8e4d26609e71e3893953ea3328160405190815260200160405180910390a15b5b50565b60005433600160a060020a0390811691161461020c57600080fd5b60018190557f74f08a774c23041a491d866f739916d7f272830b3b104a20aa1861a467b9ff738160405190815260200160405180910390a15b5b50565b600054600160a060020a031681565b6000805433600160a060020a0390811691161461027457600080fd5b506001545b5b90565b60025481565b60005433600160a060020a0390811691161461029e57600080fd5b600160a060020a03811615156102b357600080fd5b600054600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0383161790555b5b505600a165627a7a72305820aa85756c8a5a8f5636ce95de7dd4ccd0c5a00577445c12d829bbfaa13bf5d06b0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1506080325127
+}
