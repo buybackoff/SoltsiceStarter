@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "soltsice": "^0.3.4"
+    "@types/node": "^8.0.31",
+    "soltsice": "^0.6.1"
   }
 }
